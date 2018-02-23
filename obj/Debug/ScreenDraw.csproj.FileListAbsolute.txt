@@ -1,0 +1,12 @@
+D:\diego\ScreenDraw\bin\Debug\ScreenDraw.exe.config
+D:\diego\ScreenDraw\bin\Debug\ScreenDraw.exe
+D:\diego\ScreenDraw\bin\Debug\ScreenDraw.pdb
+D:\diego\ScreenDraw\obj\Debug\MainWindow.baml
+D:\diego\ScreenDraw\obj\Debug\MainWindow.g.cs
+D:\diego\ScreenDraw\obj\Debug\App.g.cs
+D:\diego\ScreenDraw\obj\Debug\ScreenDraw_MarkupCompile.cache
+D:\diego\ScreenDraw\obj\Debug\ScreenDraw.g.resources
+D:\diego\ScreenDraw\obj\Debug\ScreenDraw.Properties.Resources.resources
+D:\diego\ScreenDraw\obj\Debug\ScreenDraw.csproj.GenerateResource.Cache
+D:\diego\ScreenDraw\obj\Debug\ScreenDraw.exe
+D:\diego\ScreenDraw\obj\Debug\ScreenDraw.pdb

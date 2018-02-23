@@ -1,0 +1,62 @@
+﻿<Window x:Class="ScreenDraw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="" 
+		Background="#12000000"
+		AllowsTransparency="True"
+		WindowStyle="None"
+		BorderThickness="3"
+		BorderBrush="Gray"
+		Loaded="Window_Loaded"
+        WindowState="Maximized"
+        ResizeMode="NoResize"
+        KeyDown="Window_KeyDown">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="top" 
+                   FontSize="14" Foreground="White" Background="Black" 
+                   Opacity=".2" LineHeight="1" Padding="5,1,5,1" Name="txtMessages"
+                   Visibility="Collapsed">
+        </TextBlock>
+        <WrapPanel Name="wpShoot" Background="White" Visibility="Hidden" />
+        <Canvas Name="canv" MouseDown="canv_MouseDown" MouseMove="canv_MouseMove">
+            <Canvas.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </Canvas.Background>
+        </Canvas>
+        <StackPanel Name="stakPControls" HorizontalAlignment="Right" VerticalAlignment="Top" Orientation="Vertical">
+            <Button Name="btnClose" Height="30" Width="60" 
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Top" Background="LightGray"
+                    Click="btnClose_Click">
+                Close
+            </Button>
+            <Button Name="btnSave" Height="30" Width="60" 
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Top" Background="LightGray"
+                    Click="btnSave_Click">
+                Save
+            </Button>
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Orientation="Horizontal">
+                
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Orientation="Vertical">
+                    <Button Name="a1" Height="30" Width="30" Background="#FF0000" Click="cp_ChangeColor"/>
+                    <Button Name="a2" Height="30" Width="30" Background="#FF7000" Click="cp_ChangeColor"/>
+                    <Button Name="a3" Height="30" Width="30" Background="#FFFF00" Click="cp_ChangeColor"/>
+                    <Button Name="a4" Height="30" Width="30" Background="#7FFF00" Click="cp_ChangeColor"/>
+                    <Button Name="a5" Height="30" Width="30" Background="#00FF00" Click="cp_ChangeColor"/>
+                    <Button Name="a6" Height="30" Width="30" Background="#7FFF00" Click="cp_ChangeColor"/>
+                    <Button Name="a7" Height="30" Width="30" Background="#FFFFFF" Click="cp_ChangeColor"/>
+                </StackPanel>                                                            
+				<StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Orientation="Vertical"> 
+                    <Button Name="b1" Height="30" Width="30" Background="#00FFFF" Click="cp_ChangeColor"/>
+                    <Button Name="b2" Height="30" Width="30" Background="#007FFF" Click="cp_ChangeColor"/>
+                    <Button Name="b3" Height="30" Width="30" Background="#0000FF" Click="cp_ChangeColor"/>
+                    <Button Name="b4" Height="30" Width="30" Background="#7F00FF" Click="cp_ChangeColor"/>
+                    <Button Name="b5" Height="30" Width="30" Background="#FF00FF" Click="cp_ChangeColor"/>
+                    <Button Name="b6" Height="30" Width="30" Background="#FF007F" Click="cp_ChangeColor"/>
+                    <Button Name="b7" Height="30" Width="30" Background="#000000" Click="cp_ChangeColor"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
