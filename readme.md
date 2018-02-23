@@ -6,17 +6,13 @@ Simple screen draw application. Draw directly on screen and make a screen shoot 
 
 ### Features 
 * Draw on screen
-* Twelve colors
+* Primary colors colors
 * Save to desktop
 
 ### Sources:
 This application was builded with Visual Studio 2015, C# and WPF
 
-##Credits
-
-ArrestDB is a complete rewrite of [Arrest-MySQL](https://github.com/gilbitron/Arrest-MySQL) with several optimizations and additional features.
-
-##License (Creative Commons)
+## License (Creative Commons)
 
 Copyright (c) 2014 Luis Diego Arias (ariassd@gmail.com).
 
